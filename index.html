@@ -18,6 +18,81 @@
     <link href="css/custom.css" rel="stylesheet">
   </head>
   <body>
-
+    <div class="container">
+      <h1>Brian's Shopping Cart</h1>
+        <div class="table">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Item</th>
+                <th scope="col">Unit Price</th>
+                <th scope="col">QTY</th>
+                <th scope="col">Cost</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="info">
+                <th scope='row item'>Dozen Eggs</th>
+                <td class="unit-price">$1.99</td>
+                <td class='qty'><input type='number'></input></td>
+                <td class='cost'></td>
+                <td><button class='btn btn-xs remove'><i>Remove</i></button></td>
+              </tr>
+              <tr>
+                <th scope="row item">Milk</th>
+                <td class="unit-price">$3.99</td>
+                <td class='qty'><input type='number'></input></td>
+                <td class="cost"></td>
+                <td><button class='btn btn-xs remove'><i>Remove</i></button></td>
+              </tr>
+              <tr class="info">
+                <th scope="row item">Coffee</th>
+                <td class="unit-price">$20.99</td>
+                <td class='qty'><input type='number'></input></td>
+                <td class="cost"></td>
+                <td><button class='btn btn-xs remove'><i>Remove</i></button></td>
+                
+              </tr>
+              <tr>
+                <th scope="row item">Coffee Creamer</th>
+                <td class="unit-price">$2.79</td>
+                <td class='qty'><input type='number'></input></td>
+                <td class="cost"></td>
+                <td><button class='btn btn-xs remove'><i>Remove</i></button></td>
+              </tr>
+              <tr class="info">
+                <th scope="row item">Water</th>
+                <td class="unit-price">$3.99</td>
+                <td class='qty'><input type='number'></input></td>
+                <td class="cost"></td>
+                <td><button class='btn btn-xs remove'><i>Remove</i></button></td>
+              </tr>
+              <tr>
+                <th scope="row item">Ramen</th>
+                <td class="unit-price">$1.00</td>
+                <td class='qty'><input type='number'></input></td>
+                <td class="cost"></td>
+                <td><button class='btn btn-xs remove'><i>Remove</i></button></td>
+              </tr>
+              <tr id='lastRow'>
+                <td><input class='form-control input-sm' type='text' id='item' placeholder='new item'></input></td>
+                <td><input class='form-control input-sm' type='number' id='price' placeholder='price'></input></td>
+                <td colspan='2'></td>
+                <td><button class='btn btn-primary btn-sm add'>Add</button></td>
+              </tr>
+              <tr>
+                <td colspan='3' class='text-left'>GRAND TOTAL</td>
+                <td id='grandTotal'></td>
+                <td><button class='btn btn-xs clear'><i>Clear Cart</i></button></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <tfoot>
+          
+        </tfoot>
+    </div>
   </body>
 </html>
