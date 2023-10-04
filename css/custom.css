@@ -65,7 +65,7 @@ input {
 #clearCart {
     background-color: rgb(204, 207, 35);
     width: 100px;
-    text-align: center;
+    text-align: right;
     font-size: 12px;
     font-weight: bold;
     border: 1px solid #929090;
